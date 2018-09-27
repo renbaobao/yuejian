@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\mac\\AndroidStudioProjects\\yuejian14\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\login.xml",
+        "source": "C:\\Users\\mac\\AndroidStudioProjects\\yuejian14\\app\\src\\main\\res\\layout\\login.xml"
+    },
+    {
+        "merged": "C:\\Users\\mac\\AndroidStudioProjects\\yuejian14\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_register.xml",
+        "source": "C:\\Users\\mac\\AndroidStudioProjects\\yuejian14\\app\\src\\main\\res\\layout\\activity_register.xml"
+    }
+]
