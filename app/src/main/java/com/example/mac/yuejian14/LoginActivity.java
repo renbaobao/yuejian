@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.text.TextUtils;
-import android.view.View;
 import android.widget.Toast;
 
 import com.example.mac.yuejian14.databinding.LoginBinding;
@@ -22,6 +21,7 @@ public class LoginActivity extends Activity {
         super.onCreate(savedInstanceState);
         binding = DataBindingUtil.setContentView(this, R.layout.login);
         binding.loginButton.setOnClickListener(v -> login());
+        binding.toRegisterButton.setOnClickListener(v ->startActivity(new Intent(LoginActivity.this,RegisterActivity.class) ) );
     }
 
     private void login() {
@@ -39,7 +39,7 @@ public class LoginActivity extends Activity {
                     if (!userResponse.getUid().equals("0")){
                         Toast.makeText(this, "登录成功", Toast.LENGTH_SHORT).show();
 
-                                                                               startActivity(new Intent(LoginActivity.this,MainActivity.class));
+                        startActivity(new Intent(LoginActivity.this,MainActivity.class));
                     }
             else {
                         Toast.makeText(this, "登录失败", Toast.LENGTH_SHORT).show();

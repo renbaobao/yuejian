@@ -17,4 +17,7 @@ public class UserModel {
     public Observable<UserResponse> login(String username, String password){
       return   MyApiFactory.getIns().getService().login(username,password);
     }
+    public  Observable<UserResponse>register(String username,String password){
+        return MyApiFactory.getIns().getService().register(username,password);
+    }
 }

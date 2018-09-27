@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mac.yuejian14.RegisterActivity"
+    android:background="@drawable/bj"
+    android:orientation="vertical">
+
+<ImageView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:background="@drawable/l"
+    android:layout_marginTop="130dp"
+    android:layout_gravity="center_horizontal"
+    />
+    <EditText
+        android:id="@+id/userName"
+    android:layout_width="200dp"
+    android:layout_height="40dp"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/edit_text_background"
+    android:layout_gravity="center_horizontal"
+    android:hint="用户名"
+    android:inputType="textUri"
+    android:singleLine="true"
+    android:textColor="@color/color_FF545353"
+    android:textColorHint="@color/color_FFA49C9C"
+    android:textSize="@dimen/s14"
+    android:paddingLeft="@dimen/d15"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="密码"
+        android:inputType="textUri"
+        android:paddingLeft="@dimen/d15"
+        android:singleLine="true"
+        android:textColor="@color/color_FF545353"
+        android:textColorHint="@color/color_FFA49C9C"
+        android:textSize="@dimen/s14" />
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="注册"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/d20"
+        android:background="@drawable/button_shape"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="已有账号？点击登录"
+        android:layout_marginTop="@dimen/d50"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
+
+</layout>

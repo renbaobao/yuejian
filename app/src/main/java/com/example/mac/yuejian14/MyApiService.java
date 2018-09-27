@@ -11,4 +11,7 @@ import rx.Observable;
 public interface MyApiService {
     @GET("User/getUserById")
     Observable<UserResponse> login(@Query("username") String username, @Query("userpassword") String password);
+
+    @GET("User/userReg")
+    Observable<UserResponse> register(@Query("username") String username, @Query("userpassword") String password);
 }

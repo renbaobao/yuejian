@@ -6,6 +6,15 @@ package com.example.mac.yuejian14;
 
 public class UserResponse {
         private String uid;
+        private  String success;
+
+    public String getSuccess() {
+        return success;
+    }
+
+    public void setSuccess(String success) {
+        this.success = success;
+    }
 
     public String getUid() {
         return uid;

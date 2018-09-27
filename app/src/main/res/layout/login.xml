@@ -121,15 +121,31 @@
                 android:layout_height="1dp"
                 android:background="@color/color_FFA49C9C" />
         </LinearLayout>
-
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
         <Button
             android:id="@+id/login_button"
-            android:layout_width="match_parent"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:onClick="login"
+            android:background="@drawable/button_shape"
             android:text="@string/login"
             android:textColor="@color/color_FF545353"
-            android:textSize="@dimen/s15" />
+            android:textSize="@dimen/s15"
+            android:layout_marginLeft="@dimen/d15"/>
+        <Button
+            android:id="@+id/to_register_button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+
+            android:background="@drawable/button_shape"
+            android:text="注册"
+            android:textColor="@color/color_FF545353"
+            android:textSize="@dimen/s15"
+            android:layout_marginLeft="55dp"/>
+</LinearLayout>
     </LinearLayout>
 </layout>
