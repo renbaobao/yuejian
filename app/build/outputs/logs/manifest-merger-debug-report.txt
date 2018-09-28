@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\mac\AndroidStudioProjects\yuejian14\app\src\main\AndroidManifest.xml:2:1-50:12
-INJECTED from C:\Users\mac\AndroidStudioProjects\yuejian14\app\src\main\AndroidManifest.xml:2:1-50:12
-INJECTED from C:\Users\mac\AndroidStudioProjects\yuejian14\app\src\main\AndroidManifest.xml:2:1-50:12
-INJECTED from C:\Users\mac\AndroidStudioProjects\yuejian14\app\src\main\AndroidManifest.xml:2:1-50:12
+ADDED from C:\Users\mac\AndroidStudioProjects\yuejian14\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from C:\Users\mac\AndroidStudioProjects\yuejian14\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from C:\Users\mac\AndroidStudioProjects\yuejian14\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from C:\Users\mac\AndroidStudioProjects\yuejian14\app\src\main\AndroidManifest.xml:2:1-49:12
 MERGED from [com.android.databinding:adapters:1.3.1] C:\Users\mac\.gradle\caches\transforms-1\files-1.1\adapters-1.3.1.aar\13eea816433410cf8a610410e990f22f\AndroidManifest.xml:17:1-26:12
 MERGED from [com.android.databinding:library:1.3.1] C:\Users\mac\.gradle\caches\transforms-1\files-1.1\library-1.3.1.aar\f8fca898ef938e291baba0b1f78440bf\AndroidManifest.xml:17:1-26:12
 MERGED from [com.android.support:percent:27.1.1] C:\Users\mac\.gradle\caches\transforms-1\files-1.1\percent-27.1.1.aar\377f9713e522c97a051d8ec4415dce32\AndroidManifest.xml:17:1-22:12
@@ -25,20 +25,20 @@ MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\mac\.gradle\caches\t
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\mac\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\714c4cba02d77060bf73c50a498de2c5\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\mac\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\3cab6f7e9577ae0a58d8ec7a2b7d4dd4\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\mac\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\033fe992d1bf4d6f08b7c014b11d547d\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\mac\AndroidStudioProjects\yuejian14\app\src\main\AndroidManifest.xml:2:1-50:12
-INJECTED from C:\Users\mac\AndroidStudioProjects\yuejian14\app\src\main\AndroidManifest.xml:2:1-50:12
-INJECTED from C:\Users\mac\AndroidStudioProjects\yuejian14\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\mac\AndroidStudioProjects\yuejian14\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from C:\Users\mac\AndroidStudioProjects\yuejian14\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from C:\Users\mac\AndroidStudioProjects\yuejian14\app\src\main\AndroidManifest.xml:2:1-49:12
 	package
 		ADDED from C:\Users\mac\AndroidStudioProjects\yuejian14\app\src\main\AndroidManifest.xml:3:5-40
 		INJECTED from C:\Users\mac\AndroidStudioProjects\yuejian14\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\mac\AndroidStudioProjects\yuejian14\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\mac\AndroidStudioProjects\yuejian14\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\mac\AndroidStudioProjects\yuejian14\app\src\main\AndroidManifest.xml:2:1-50:12
+		ADDED from C:\Users\mac\AndroidStudioProjects\yuejian14\app\src\main\AndroidManifest.xml:2:1-49:12
 		INJECTED from C:\Users\mac\AndroidStudioProjects\yuejian14\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\mac\AndroidStudioProjects\yuejian14\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\mac\AndroidStudioProjects\yuejian14\app\src\main\AndroidManifest.xml:2:1-50:12
+		ADDED from C:\Users\mac\AndroidStudioProjects\yuejian14\app\src\main\AndroidManifest.xml:2:1-49:12
 		INJECTED from C:\Users\mac\AndroidStudioProjects\yuejian14\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\mac\AndroidStudioProjects\yuejian14\app\src\main\AndroidManifest.xml:2:11-69
@@ -111,7 +111,7 @@ ADDED from C:\Users\mac\AndroidStudioProjects\yuejian14\app\src\main\AndroidMani
 	android:name
 		ADDED from C:\Users\mac\AndroidStudioProjects\yuejian14\app\src\main\AndroidManifest.xml:25:22-76
 application
-ADDED from C:\Users\mac\AndroidStudioProjects\yuejian14\app\src\main\AndroidManifest.xml:27:5-48:19
+ADDED from C:\Users\mac\AndroidStudioProjects\yuejian14\app\src\main\AndroidManifest.xml:27:5-47:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\mac\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\457d4e7a156446fc7cc29409f38f9938\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\mac\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\457d4e7a156446fc7cc29409f38f9938\AndroidManifest.xml:9:5-20
 	android:supportsRtl
@@ -156,10 +156,6 @@ activity#com.example.mac.yuejian14.RegisterActivity
 ADDED from C:\Users\mac\AndroidStudioProjects\yuejian14\app\src\main\AndroidManifest.xml:46:9-54
 	android:name
 		ADDED from C:\Users\mac\AndroidStudioProjects\yuejian14\app\src\main\AndroidManifest.xml:46:19-51
-activity#com.example.mac.yuejian14.Main2Activity
-ADDED from C:\Users\mac\AndroidStudioProjects\yuejian14\app\src\main\AndroidManifest.xml:47:9-60
-	android:name
-		ADDED from C:\Users\mac\AndroidStudioProjects\yuejian14\app\src\main\AndroidManifest.xml:47:19-48
 uses-sdk
 INJECTED from C:\Users\mac\AndroidStudioProjects\yuejian14\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\mac\AndroidStudioProjects\yuejian14\app\src\main\AndroidManifest.xml

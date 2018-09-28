@@ -18,6 +18,7 @@ public class ActivityRegisterBinding extends android.databinding.ViewDataBinding
         sViewsWithIds.put(R.id.userName, 1);
         sViewsWithIds.put(R.id.password, 2);
         sViewsWithIds.put(R.id.register_button, 3);
+        sViewsWithIds.put(R.id.text_to_login, 4);
     }
     // views
     @NonNull
@@ -27,6 +28,8 @@ public class ActivityRegisterBinding extends android.databinding.ViewDataBinding
     @NonNull
     public final android.widget.Button registerButton;
     @NonNull
+    public final android.widget.TextView textToLogin;
+    @NonNull
     public final android.widget.EditText userName;
     // variables
     // values
@@ -35,11 +38,12 @@ public class ActivityRegisterBinding extends android.databinding.ViewDataBinding
 
     public ActivityRegisterBinding(@NonNull android.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
         super(bindingComponent, root, 0);
-        final Object[] bindings = mapBindings(bindingComponent, root, 4, sIncludes, sViewsWithIds);
+        final Object[] bindings = mapBindings(bindingComponent, root, 5, sIncludes, sViewsWithIds);
         this.mboundView0 = (android.widget.LinearLayout) bindings[0];
         this.mboundView0.setTag(null);
         this.password = (android.widget.EditText) bindings[2];
         this.registerButton = (android.widget.Button) bindings[3];
+        this.textToLogin = (android.widget.TextView) bindings[4];
         this.userName = (android.widget.EditText) bindings[1];
         setRootTag(root);
         // listeners

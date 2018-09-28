@@ -2,67 +2,34 @@
 <instant-run
     abi="x86,armeabi-v7a,armeabi"
     api-level="22"
-    build-mode="FULL"
+    build-mode="COLD"
     density="tvdpi"
     format="10"
     plugin-version="3.0.1"
-    timestamp="1538054191310"
+    timestamp="1538105502175"
     token="-7343290497241459874"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="6981" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="1988" />
+        duration="0" />
     <task
         name="verifier"
-        duration="1543" />
+        duration="0" />
 
-    <artifact
-        location="C:\Users\mac\AndroidStudioProjects\yuejian14\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\mac\AndroidStudioProjects\yuejian14\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\mac\AndroidStudioProjects\yuejian14\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\mac\AndroidStudioProjects\yuejian14\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\mac\AndroidStudioProjects\yuejian14\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\mac\AndroidStudioProjects\yuejian14\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\mac\AndroidStudioProjects\yuejian14\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\mac\AndroidStudioProjects\yuejian14\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\mac\AndroidStudioProjects\yuejian14\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\mac\AndroidStudioProjects\yuejian14\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\mac\AndroidStudioProjects\yuejian14\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-        type="SPLIT" />
     <artifact
         location="C:\Users\mac\AndroidStudioProjects\yuejian14\app\build\outputs\apk\debug\app-debug.apk"
         type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1538054191310"
+        timestamp="1538094485889"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\mac\AndroidStudioProjects\yuejian14\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
@@ -80,9 +47,6 @@
             location="C:\Users\mac\AndroidStudioProjects\yuejian14\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\mac\AndroidStudioProjects\yuejian14\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
-        <artifact
             location="C:\Users\mac\AndroidStudioProjects\yuejian14\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
@@ -97,6 +61,47 @@
         <artifact
             location="C:\Users\mac\AndroidStudioProjects\yuejian14\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
+        <artifact
+            location="C:\Users\mac\AndroidStudioProjects\yuejian14\app\build\outputs\apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
+        <artifact
+            location="C:\Users\mac\AndroidStudioProjects\yuejian14\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="R_CLASS_CHANGE"
+        timestamp="1538102082259"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\mac\AndroidStudioProjects\yuejian14\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\mac\AndroidStudioProjects\yuejian14\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\mac\AndroidStudioProjects\yuejian14\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\mac\AndroidStudioProjects\yuejian14\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\mac\AndroidStudioProjects\yuejian14\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\mac\AndroidStudioProjects\yuejian14\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\mac\AndroidStudioProjects\yuejian14\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\mac\AndroidStudioProjects\yuejian14\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1538105502175"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\mac\AndroidStudioProjects\yuejian14\app\build\outputs\apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />

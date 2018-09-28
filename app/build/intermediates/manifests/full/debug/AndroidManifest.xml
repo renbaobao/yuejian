@@ -51,7 +51,6 @@
         <activity android:name="com.example.mac.yuejian14.MainActivity" />
         <activity android:name="com.example.mac.yuejian14.BaseActivity" />
         <activity android:name="com.example.mac.yuejian14.RegisterActivity" />
-        <activity android:name="com.example.mac.yuejian14.Main2Activity" />
     </application>
 
 </manifest>
